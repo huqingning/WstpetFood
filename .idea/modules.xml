@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/WstpetFood.iml" filepath="$PROJECT_DIR$/.idea/WstpetFood.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wstfoodsever/wstfoodsever.iml" filepath="$PROJECT_DIR$/wstfoodsever/wstfoodsever.iml" />
       <module fileurl="file://$PROJECT_DIR$/wstweb/wstweb.iml" filepath="$PROJECT_DIR$/wstweb/wstweb.iml" />
     </modules>
   </component>
