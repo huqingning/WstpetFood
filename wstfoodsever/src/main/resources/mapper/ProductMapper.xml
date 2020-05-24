@@ -26,6 +26,15 @@
     from product
     where id = #{id,jdbcType=INTEGER}
   </select>
+
+  <select id="selectByPrTypeId" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from product
+    where typeId = #{id,jdbcType=INTEGER} and status = 1
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from product
     where id = #{id,jdbcType=INTEGER}

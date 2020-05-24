@@ -2,6 +2,8 @@ package com.wst.wstfoodsever.mapper;
 
 import com.wst.wstfoodsever.dao.Document;
 
+import java.util.List;
+
 public interface DocumentMapper {
     int deleteByPrimaryKey(Integer id);
 
@@ -10,6 +12,8 @@ public interface DocumentMapper {
     int insertSelective(Document record);
 
     Document selectByPrimaryKey(Integer id);
+
+    List<Document> selectAll();
 
     int updateByPrimaryKeySelective(Document record);
 
