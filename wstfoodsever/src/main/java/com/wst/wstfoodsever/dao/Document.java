@@ -50,4 +50,15 @@ public class Document {
     public void setContent(String content) {
         this.content = content == null ? null : content.trim();
     }
+
+    @Override
+    public String toString() {
+        return "Document{" +
+                "id=" + id +
+                ", typename='" + typename + '\'' +
+                ", sort=" + sort +
+                ", imageurl='" + imageurl + '\'' +
+                ", content='" + content + '\'' +
+                '}';
+    }
 }
