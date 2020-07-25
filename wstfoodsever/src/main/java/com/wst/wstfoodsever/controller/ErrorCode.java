@@ -6,7 +6,7 @@ import java.util.Map;
 public class ErrorCode {
 
    public static final  int SUCESS = 00;
-   public static final  int FAILD = 01;
+   public static final  int FAILD = 01;//
 
 
     public static final Map<Integer, String> msg = new HashMap<Integer, String>() {
