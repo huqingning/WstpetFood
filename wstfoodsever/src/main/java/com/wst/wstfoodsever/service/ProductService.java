@@ -13,6 +13,12 @@ public interface ProductService {
 
     void productUpdate(Product product);
 
+    boolean testAop(Product product);
+
+    boolean testAop1(Product product);
+
+    boolean testAop2(Product product);
+
     List<Document> indexInfo();
 
     List<Product> productList(Integer typeId);
