@@ -112,4 +112,5 @@
       imageUrl = #{imageurl,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <!--test-->
 </mapper>
