@@ -45,7 +45,7 @@ public class HelloWord {
 
 
 
-    @RequestMapping("/query") //
+    @RequestMapping("/query")
     public String query(){
         Document document = documentMapper.selectByPrimaryKey(1);
         return "dsadas";
