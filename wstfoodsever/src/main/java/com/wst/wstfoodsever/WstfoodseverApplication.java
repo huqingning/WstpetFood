@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-// mapper 接口类扫描包配置
+// mapper 接口类扫描包配置xxx
 @MapperScan("com.wst.wstfoodsever.mapper")
 public class WstfoodseverApplication {
 
